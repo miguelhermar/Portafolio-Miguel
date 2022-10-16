@@ -36,19 +36,17 @@
             <h1 class="section__title section__title--intro">
                 Movie <strong>Recommender System</strong>
             </h1>
-            <p class="section__subtitle section__subtitle--intro">Detectar Depresion</p>
-            <img src="img/movies_cinema.jpeg" alt="" class="intro__img">
+            <p class="section__subtitle section__subtitle--intro">Recomendación de películas y predictor de puntuación</p>
+            <img src="img/movie_db_logo.jpeg" alt="" class="intro__img">
         </section>
         
         <div class="portfolio-item-individual">
             <h3>Este proyecto fue creado como Proyecto Final para el Bootcamp de Data Analytics en Ironhack.</h3>
             
-            <img src="img/depression-1.jpg" alt="">
-
-            <p><strong>Photo by <a href="https://unsplash.com/@jonathanrados?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jonathan Rados</a> on <a href="https://unsplash.com/s/photos/depression?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</strong></a></p>
+            <img src="img/movies_cinema.jpeg" alt="">
   
             
-            <p>En este proyecto, usaré la API de la base de datos de películas para obtener información como la trama, el reparto, el equipo, el presupuesto y los ingresos de unas 20 000 películas. La API de base de datos de películas también brinda acceso a datos sobre muchas películas, actores y actrices, equipo, miembros y programas de televisión adicionales.</p>
+            <p>En este proyecto, usaré la API de The Movie Database para obtener información como la trama, el reparto, el equipo, el presupuesto y los ingresos de unas 20,000 películas. La API también brinda acceso a datos sobre muchas películas, actores y actrices, equipo, miembros y programas de televisión adicionales.</p>
             <p><strong>Objetivo:</strong> Inicialmente un análisis exploratorio de los datos para encontrar correlaciones entre variables y también hago algunas visualizaciones para explorar los valores únicos que tiene cada característica en mi conjunto de datos. Luego hice un sistema de recomendación simple de una película en función de su título, que mostraba 10 películas recomendadas en función de esa característica única. Aquí también aparece un modelo más robusto en el que combiné diferentes características como el elenco, el director, las palabras clave de la película, etc. Este último modelo muestra resultados más interesantes y creíbles. Para este sistema de recomendación, utilizo Cosine Similarity para encontrar la similitud entre 2 películas. ¿Cómo funciona la similitud del coseno? Digamos que tenemos 2 vectores. Si los vectores son casi paralelos, es decir, el ángulo entre los vectores es 0, entonces podemos decir que ambos son "similares". Por otro lado, si los vectores son perpendiculares, entonces podemos decir que son independientes o NO “semejantes”.<p/>
             <p>Finalmente, trato de predecir la puntuación o la calificación de una película. Sabemos que la partitura de una película depende de varios factores como el género, o el actor que trabaja en la película y principalmente el director de la película. Teniendo en cuenta todos estos factores, intentaré crear un predictor de puntaje simple para este conjunto de datos, tomando el promedio de los puntajes de las películas similares y encontrar el puntaje para la película deseada.<p/>
             <p>Este sistema de recomendaciones se basa en el contenido, es decir, las recomendaciones se basan en la descripción de los productos, o en este caso de las películas.<p/>
