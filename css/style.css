@@ -298,7 +298,7 @@ header {
     background-color: var(--clr-dark); /* Validar otros colores */
 
 /*  Editar Imagen  */
-    background-image: url(../img/EBCToluca.png); 
+    background-image: url(../img/campus_up.jpeg); 
     background-size: cover;
     background-blend-mode: multiply; 
     color: var(--clr-light);
