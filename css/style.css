@@ -332,6 +332,7 @@ header {
 
 .ihwebpage__link {
     font-weight: var(--fw-bold);
+    color: var(--clr-light);
 }
 
 .ihwebpage__link:hover,
