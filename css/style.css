@@ -260,19 +260,6 @@ header {
     display: inline-block;
 }
 
-.ihwebpage__link {
-    font-weight: var(--fw-bold);
-}
-
-.ihwebpage__link:hover,
-.social-list__link:hover {
-    opacity: .7;
-}
-
-.ihwebpage__link:hover {
-    text-decoration: underline;
-}
-
 @media (min-width: 600px) {
     .intro {
         display: grid;
@@ -340,6 +327,20 @@ header {
 .service {
     max-width: 500px;
     margin: 0 auto;
+}
+
+
+.ihwebpage__link {
+    font-weight: var(--fw-bold);
+}
+
+.ihwebpage__link:hover,
+.social-list__link:hover {
+    opacity: .7;
+}
+
+.ihwebpage__link:hover {
+    text-decoration: underline;
 }
 
 @media (min-width: 800px) {
